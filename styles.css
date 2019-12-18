@@ -1,0 +1,64 @@
+body {
+  padding-top: 50px;
+}
+#titles{
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 100px !important;
+  color: white;
+  font-weight: bold;
+
+}
+h2{
+  margin-bottom: 20px !important;
+}
+.starter-template {
+  /* padding: 40px 15px; */
+  text-align: center;
+}
+.content-area {
+width: 100%;
+margin:0px;
+
+}
+/* .container{
+
+} */
+::placeholder{
+  color:#b4d3ed;
+}
+
+.input-area {
+  /* margin: 25px; */
+  margin-top: 0px;
+  padding-bottom: 10px;
+  background-color:#4696E5;
+  border-radius: 5px; 
+}
+
+.btn {
+  background-color: #4696E5;
+  border:solid white !important;
+  color:white;
+  margin-left:75px ;
+  
+}
+.task-text {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.hidden {
+  display: none;
+}
+.delete-icon-area {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.delete-icon {
+  color: red;
+}
+.complete {
+  text-decoration: line-through;
+}
